@@ -1,13 +1,10 @@
 <% layout('/layouts/boilerplate') %>
 
     <div class="container-fluid p-0 position-relative mb-5">
-        <img class="hero-img" src="/images/header.jpg" alt="">
+        <img class="hero-img" src="/images/banner.jpg" alt="">
 
         <div class="overlay"></div>
-        <div class="hero-text">
-            <h1 class="fw-bold fs-1">OLCA Dent</h1>
-            <h1 class="fw-bold fs-1">Clinica Odontologica</h1>
-        </div>
+
 
     </div>
 
@@ -38,7 +35,61 @@
         </div>
     </div>
 
-    <section class="container-fluid mt-5 p-0">
-        <h2 class="text-center mb-4">Ubicación</h2>
-        <div id="map"></div>
+    <section class="contact-section py-5 mt-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Ubicación y Contacto</h2>
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-5">
+                    <div class="contact-card p-4 shadow rounded-4">
+
+                        <div class="contact-item mb-4">
+                            <h5 class="fw-bold mb-2">Dirección</h5>
+                            <p class="mb-0">
+                                Calle Brasil 105 #, Col. Benito Juárez<br>
+                                Cd. Madero, Tamaulipas
+                            </p>
+                        </div>
+
+                        <div class="contact-item mb-4">
+                            <h5 class="fw-bold mb-2">Teléfono</h5>
+                            <a href="https://api.whatsapp.com/send?phone=528311830371" class="contact-link">
+                                (831) 183-0371
+                            </a>
+                        </div>
+
+                        <div class="contact-item">
+                            <h5 class="fw-bold mb-2">Redes Sociales</h5>
+                            <div class="d-flex gap-3">
+                                <a href="https://www.facebook.com/p/OLCA-Dent-100093481924900/"
+                                    class="contact-link"><img class="icon-images" src="images/facebook.png" alt=""></a>
+                                <a href="https://www.instagram.com/olcadent/" class="contact-link"><img
+                                        class="icon-images" src="/images/instagram.png" alt=""></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="map-wrapper rounded-4 shadow overflow-hidden">
+                        <div id="map"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-dark text-white text-center d-flex flex-column justify-content-center align-items-center mt-5"
+        style="min-height: 50vh;">
+        <div class="mb-3">
+            <h1 class="fw-bold display-4 mb-5">Agenda hoy mismo!</h1>
+        </div>
+        <div class="">
+            <a href="https://api.whatsapp.com/send?phone=528311830371" class="btn btn-light px-4 py-2 rounded-pill fw-semibold btn-lg">Agendar una
+                cita</a>
+        </div>
     </section>
