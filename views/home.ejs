@@ -1,10 +1,25 @@
 <% layout('/layouts/boilerplate') %>
 
     <div class="container-fluid p-0 position-relative mb-5 hero-section">
-        <img class="hero-img img-fluid w-100" src="/images/banner.jpg" alt="">
+
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/bannerHD.jpg" class="hero-img slide-1 img-fluid d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/banner2V2HD.jpg" class="hero-img slide-2 d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/banner35HD.png" class=" hero-img slide-3 d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/banner479HD.png" class=" hero-img slide-3 d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
 
         <div class="overlay"></div>
-
 
     </div>
 
@@ -89,7 +104,8 @@
             <h1 class="fw-bold display-4 mb-5">Agenda hoy mismo!</h1>
         </div>
         <div class="">
-            <a href="https://api.whatsapp.com/send?phone=528311830371" class="btn btn-light px-4 py-2 rounded-pill fw-semibold btn-lg">Agendar una
+            <a href="https://api.whatsapp.com/send?phone=528311830371"
+                class="btn btn-light px-4 py-2 rounded-pill fw-semibold btn-lg">Agendar una
                 cita</a>
         </div>
     </section>
